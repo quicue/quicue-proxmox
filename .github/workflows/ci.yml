@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install CUE
+        uses: cue-lang/setup-cue@v1.0.1
+        with:
+          version: 'latest'
+
+      - name: Validate patterns
+        run: cue vet -c=false ./patterns/...
+
+      - name: Validate examples
+        run: cue vet -c=false ./examples/...
