@@ -10,8 +10,7 @@ quicue.ca/proxmox@v0
 ```
 ## Patterns
 
-- `3-layer`
-- `adapter`
+- `patterns`
 
 ## Part of quicue
 
