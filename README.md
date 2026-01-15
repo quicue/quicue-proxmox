@@ -9,6 +9,9 @@ Proxmox VE provider for quicue. Implements action interfaces with qm, pct, and p
 import "quicue.ca/proxmox@v0"
 ```
 ## Schemas
+
+| Schema | Description |
+|--------|-------------|
 | `#VMActions` | VM operations via qm command |
 | `#VMLifecycle` | VM lifecycle: start, stop, shutdown, reboot |
 | `#VMSnapshots` | VM snapshot management |
