@@ -5,8 +5,3 @@ language: {
 source: {
 	kind: "git"
 }
-deps: {
-	"quicue.ca@v0": {
-		v: "v0.1.2"
-	}
-}
