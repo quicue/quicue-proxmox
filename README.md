@@ -2,16 +2,16 @@
 
 Proxmox VE provider for quicue. Implements action interfaces with qm, pct, and pvecm commands.
 
-**Status:** 🟢 Active
-## Module
+**Status:** [Active]
+## Installation
 
-```
-quicue.ca/proxmox@v0
+```cue
+import "quicue.ca/proxmox@v0"
 ```
 ## Patterns
+- `3-layer`
+- `adapter`
 
-- `patterns`
+---
 
-## Part of quicue
-
-This repository is part of the [quicue](https://quicue.ca) infrastructure-as-graph ecosystem.
+Part of the [quicue](https://quicue.ca) ecosystem.
