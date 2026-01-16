@@ -1,0 +1,9 @@
+cue.mod/pkg/
+.gitlab-ci-local/
+CLAUDE.md
+infra.cue
+proxmox.cue
+validation.cue
+
+# Hookify local rules (not committed)
+.claude/*.local.md
